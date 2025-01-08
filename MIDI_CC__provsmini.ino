@@ -8,14 +8,15 @@
 
 // The DIN port viewed from the back (not the side the cable comes from):
 //      
-//  1       5
-//   2     4
-//      3
+//  1       3
+//   4     5
+//      2
 // pin 1 = not connected
-// pin 2 = connected to 220 ohm resistor, then to +5V
-// pin 3 = connected to ground
-// pin 4 = connected to 220 ohm resistor, then to TX2 (pin 17) of the ESP32
-// pin 5 = not connected
+// pin 2 = connected to ground
+// pin 3 = not connected
+// pin 4 = connected to 220 ohm resistor, then to +5V
+// pin 5 = connected to 220 ohm resistor, then to TX2 (pin 17) of the ESP32
+
 
 #include <Arduino.h>
 
